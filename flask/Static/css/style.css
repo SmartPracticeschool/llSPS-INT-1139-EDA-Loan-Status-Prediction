@@ -1,0 +1,121 @@
+body {
+    font-size: 14px;
+    line-height: 1.8;
+    color: 99ff99;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color:#99ff99;
+    padding: 50px 0;
+
+  
+
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background: #99ff99;
+    display: -webkit-flex;
+    border-radius: 5px;
+}
+
+
+h1{
+  line-height: 1.2;
+   
+    
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 4px #000001;
+    font-family: 'Poppins', serif;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+}
+
+.lform
+{
+  width: 1015px;
+margin-top: -2px;
+color:'blue';
+}
+
+form{
+  display: block;
+  margin-top: 0em;
+}
+.form-ip
+{
+  padding: 60px 115px 90px 80px;
+margin-bottom: -4px;
+}
+.form-row {
+    margin: 0 -30px;
+    margin-bottom: 2rem;
+}
+
+label{
+font-weight: 70;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    position: relative;
+  }
+  label, input {
+    display: block;
+    width: 100%;
+    cursor: default;
+}
+.form-row .form-group {
+    width: 50%;
+    padding: 0 20px;
+}
+input,select {
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    padding: 8px 15px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+input:focus {
+    border: 1px solid #329e5e;
+}
+.form-submit{
+  text-align: center;
+  color:black
+}
+#submit {
+    background: blue;
+    margin-right: 25px;
+}
+#submit:click {
+    background-color: black;
+}
+
+  .op {
+      position: absolute;
+      left: 1035px;
+      top: 50%;
+      font-size: 2rem;
+      font-weight: bold;
+  }
+.submit {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 10px;
+    border: rounded;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
